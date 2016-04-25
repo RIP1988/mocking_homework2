@@ -2,6 +2,8 @@ package txtEditor;
 
 import static org.junit.Assert.*;
 
+
+
 import java.awt.TextField;
 import java.awt.event.ActionEvent;
 
@@ -33,7 +35,7 @@ public class ReadFileMockTest {
 		assertTrue(true);
 	}
 	
-	@Test  
+	@Test 
 	public void fileInAreaExceptionTest(){
 		ReadFile readFile = new ReadFile();
 		JTextArea jTextAreaMock = Mockito.mock(JTextArea.class);
